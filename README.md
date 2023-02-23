@@ -1,7 +1,7 @@
 
 # Higurashi Website
 
-A website that advertises Higurashi no Naku koro ni, combined with a forum for everyone to exchange and discuss around the game
+A website that advertises Higurashi no Naku koro ni, combine with a forum for everyone to exchange and discuss around the game
 
 Frontend: ReactJS, HTML, CSS.
 
