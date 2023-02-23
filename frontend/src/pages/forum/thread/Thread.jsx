@@ -214,7 +214,9 @@ function Thread() {
                 />
                 <div className="user-info">
                   <NavLink to="/forum/user/user_id">{user.username}</NavLink>
-                  <span>Member</span>
+                  <span>
+                    {memberRole(thread?.UserAccount?.userInfo?.permissionLevel)}
+                  </span>
                 </div>
               </div>
 
