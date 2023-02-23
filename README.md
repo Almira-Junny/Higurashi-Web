@@ -5,7 +5,7 @@ A website that advertises Higurashi no Naku koro ni, combined with a forum for e
 
 Frontend: ReactJS, HTML, CSS.
 
-Backend: ExpressJS, MySQL.
+Backend: ExpressJS, MySQL. ( Thanks to https://github.com/DaishiArslan )
 
 
 
