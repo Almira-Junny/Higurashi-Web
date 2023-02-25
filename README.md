@@ -14,11 +14,13 @@ Backend: ExpressJS, MySQL. ( Thanks to https://github.com/DaishiArslan )
 To deploy this project, run backend folder:
 
 ```bash
+  yarn
   node server.js
 ```
 
 Run frontend folder:
 ```bash
+  yarn
   yarn start
 ```
 ## API Reference
