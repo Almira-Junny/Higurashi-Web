@@ -24,12 +24,12 @@ function NewsPage() {
     <>
       <div id="news-page" className="main">
         <div id="news-page-content" className="content">
-          <h2>News</h2>
+          <h2 className="wow zoomIn">News</h2>
           {res && (
             <>
               <div className="news-container">
-                {res.data.map((newData) => (
-                  <New newData={newData} />
+                {res.data.map((newData, index) => (
+                  <New newData={newData} index={index} />
                 ))}
               </div>
               <Pagination
