@@ -32,6 +32,10 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Philosopher"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css"
+    />
     <title>Higurashi</title>
     <style>
       * {
@@ -148,6 +152,10 @@
       a {
         cursor: pointer;
       }
+
+      .wow {
+        visibility: hidden;
+      }
     </style>
     <title>React App</title>
   </head>
@@ -164,5 +172,9 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
   </body>
 </html>

@@ -2,11 +2,11 @@ function Introduction() {
   return (
     <>
       <div id="introduction">
-        <div className="bg-deco-1"></div>
+        <div className="bg-deco-1 wow slideInRight"></div>
         <div id="introduction-content">
           <div className="description">
-            <h2>Introduction</h2>
-            <p>
+            <h2 className="wow slideInRight">Introduction</h2>
+            <p className="wow slideInUp">
               The 58th year of Shouwa, early summer. <br />
               It’s June, and the summer heat has arrived earlier than it does
               most years. By day there are crickets, and by night there are
@@ -18,9 +18,13 @@ function Introduction() {
             </p>
           </div>
 
-          <img src={require("../../images/introduction.jpg")} alt="" />
+          <img
+            src={require("../../images/introduction.jpg")}
+            alt=""
+            className="wow slideInRight"
+          />
         </div>
-        <div className="bg-deco-2"></div>
+        <div className="bg-deco-2 wow slideInLeft" data-wow-delay="0.5s"></div>
       </div>
     </>
   );

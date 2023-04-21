@@ -2,10 +2,10 @@ function Creators() {
   return (
     <>
       <div id="creator">
-        <h2>Creators</h2>
+        <h2 className="wow zoomIn">Creators</h2>
 
         <div id="creator-content">
-          <div className="chad">
+          <div className="chad wow slideInLeft">
             <div>
               <h4>Character Design and Scenario by</h4>
 
@@ -21,7 +21,7 @@ function Creators() {
               </p>
             </div>
           </div>
-          <div className="chad">
+          <div className="chad wow slideInRight">
             <div>
               <h4>Composer</h4>
 

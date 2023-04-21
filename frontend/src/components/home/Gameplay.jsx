@@ -2,7 +2,7 @@ function Gameplay() {
   return (
     <>
       <div id="gameplay">
-        <div id="gameplay-content">
+        <div id="gameplay-content" className="wow slideInLeft">
           <h2>Gameplay</h2>
 
           <div className="description">
@@ -15,9 +15,9 @@ function Gameplay() {
           </div>
         </div>
 
-        <div className="bg-deco-2"></div>
+        <div className="bg-deco-2 wow slideInLeft"></div>
 
-        <div className="gameplay-img"></div>
+        <div className="gameplay-img wow slideInRight"></div>
       </div>
     </>
   );

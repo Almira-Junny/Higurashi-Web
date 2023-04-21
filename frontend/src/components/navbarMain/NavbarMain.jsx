@@ -1,8 +1,12 @@
 import { Outlet, NavLink } from "react-router-dom";
 import { Link } from "react-scroll";
 import "./navbarMain.css";
+import WOW from "wowjs";
 
 function NavbarMain() {
+  const wowStart = () => {
+    new WOW.WOW().init();
+  };
   return (
     <>
       <div id="main-header" className="header">
@@ -17,22 +21,34 @@ function NavbarMain() {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/news">News</NavLink>
+            <Link to="news" onClick={wowStart}>
+              News
+            </Link>
           </li>
           <li>
-            <Link to="introduction">Introduction</Link>
+            <Link to="introduction" onClick={wowStart}>
+              Introduction
+            </Link>
           </li>
           <li>
-            <Link to="story">Story</Link>
+            <Link to="story" onClick={wowStart}>
+              Story
+            </Link>
           </li>
           <li>
-            <Link to="character">Characters</Link>
+            <Link to="character" onClick={wowStart}>
+              Characters
+            </Link>
           </li>
           <li>
-            <Link to="gameplay">Gameplay</Link>
+            <Link to="gameplay" onClick={wowStart}>
+              Gameplay
+            </Link>
           </li>
           <li>
-            <Link to="creator">Creators</Link>
+            <Link to="creator" onClick={wowStart}>
+              Creators
+            </Link>
           </li>
           <li>
             <NavLink to="/forum">Forum</NavLink>

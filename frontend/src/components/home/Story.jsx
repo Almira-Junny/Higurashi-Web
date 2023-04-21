@@ -2,7 +2,7 @@ function Story() {
   return (
     <>
       <div id="story">
-        <div id="story-content">
+        <div id="story-content" className="wow fadeIn" data-wow-duration="2.5s">
           <h2>Story</h2>
           <p>
             On a certain day in June, someone dies, and someone else goes

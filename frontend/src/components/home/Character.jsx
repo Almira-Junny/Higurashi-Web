@@ -44,20 +44,35 @@ function Character() {
     <>
       <div id="character">
         <div id="character-content">
-          <h2>Characters</h2>
-
           <div className="character-title">
-            <h3 id="character-name">
+            <h3
+              id="character-name"
+              className="wow fadeInDown"
+              data-wow-delay="0.7s"
+            >
               Keiichi <br />
               Maebara
             </h3>
 
-            <button onClick={change} className="normalBtn">
+            <button
+              onClick={change}
+              className="normalBtn wow fadeInDown"
+              data-wow-delay="0.7s"
+            >
               Next
             </button>
           </div>
 
-          <div id="description">
+          <h2 className="wow fadeInUp" data-wow-delay="0.7s">
+            Characters
+          </h2>
+
+          <div
+            id="description"
+            className="wow fadeInUp"
+            data-wow-duration="0.8s"
+            data-wow-delay="0.7s"
+          >
             The protagonist of the story. <br />
             Though he is impatient and passionate, he is also indecisive. A
             character who seems to be stuck as the protagonist of a romance
@@ -71,14 +86,15 @@ function Character() {
         </div>
 
         <img
+          className="wow zoomInDown"
           src={require("../../images/keiichi.png")}
           alt=""
           id="character-img"
         />
 
-        <div className="character-background"></div>
+        <div className="character-background wow slideInRight"></div>
 
-        <div className="bg-deco-1"></div>
+        <div className="bg-deco-1 wow slideInLeft"></div>
       </div>
     </>
   );
