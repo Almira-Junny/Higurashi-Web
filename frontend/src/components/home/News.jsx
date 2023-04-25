@@ -35,7 +35,7 @@ function News() {
         <h2 className="wow fadeInDown">News</h2>
         <div id="news-content">
           {news?.map((newData, index) => (
-            <New newData={newData} index={index} />
+            <New newData={newData} index={index} key={index} />
           ))}
         </div>
         <Link to="/news" className="normalBtn wow fadeIn" data-wow-delay="1.2s">

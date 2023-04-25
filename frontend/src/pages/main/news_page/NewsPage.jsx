@@ -29,7 +29,7 @@ function NewsPage() {
             <>
               <div className="news-container">
                 {res.data.map((newData, index) => (
-                  <New newData={newData} index={index} />
+                  <New newData={newData} index={index} key={index} />
                 ))}
               </div>
               <Pagination
