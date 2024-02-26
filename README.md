@@ -3,15 +3,15 @@
 
 A website that advertises Higurashi no Naku koro ni, combine with a forum for everyone to exchange and discuss around the game
 
-Frontend: ReactJS, HTML, CSS.
+Frontend: ReactJS
 
-Backend: ExpressJS, MySQL. ( Thanks to https://github.com/DaishiArslan )
+Backend: ExpressJS, MySQL
 
 
 
 ## Deployment
 
-To deploy this project, run backend folder:
+To deploy this project, contact for env file. Put to backend folder and run:
 
 ```bash
   yarn
